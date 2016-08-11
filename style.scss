@@ -1,0 +1,28 @@
+
+.todoapp{
+	max-width: 1000px;
+	margin:0 auto;
+	.main{
+		.todo-list{
+			padding:0;
+			list-style: none;
+			li{
+				border:1px solid;
+				padding:1em 0;
+				margin:1em 0;
+				transition: all 1s;
+
+			}
+
+			li.completed{
+				background:yellow;
+				padding:1.4em 0;
+				margin:1.4em 0;
+				width:50%;
+				position: relative;
+				left:50%;
+
+			}
+		}
+	}
+}
